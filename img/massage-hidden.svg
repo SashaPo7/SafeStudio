@@ -1,0 +1,13 @@
+<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="icon" clip-path="url(#clip0_143_687)">
+<path id="Icon" d="M10.0003 19.1739C14.8734 19.1739 18.8238 15.2235 18.8238 10.3504C18.8238 5.47728 14.8734 1.52686 10.0003 1.52686C5.12718 1.52686 1.17676 5.47728 1.17676 10.3504C1.17676 11.7594 1.50701 13.0912 2.09432 14.2727C2.70609 15.5035 1.17747 19.1739 1.17747 19.1739H10.0003Z" stroke="#616161" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<circle id="Ellipse 98" cx="5.88253" cy="10.9387" r="1.17647" fill="#616161"/>
+<circle id="Ellipse 99" cx="9.41182" cy="10.9387" r="1.17647" fill="#616161"/>
+<circle id="Ellipse 100" cx="12.9411" cy="10.9387" r="1.17647" fill="#616161"/>
+</g>
+<defs>
+<clipPath id="clip0_143_687">
+<rect width="20" height="20" fill="white"/>
+</clipPath>
+</defs>
+</svg>
