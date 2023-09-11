@@ -18,26 +18,26 @@
   <header class="header">
     <div class="container-header">
       <div class="header_mobile">
-        <div class="logo"><img src="img/logo.png" alt="Safe studio логотип">
+        <div class="logo"><img src="../img/logo.png" alt="Safe studio логотип">
         </div>
         <nav class="header-menu">
           <a href="#contactUs-form" class="massage"></a>
-          <div class="menu-icon" role="button" easy-toggle="#menu" easy-class="show" easy-rcoe></div>
+          <div class="menu-icon" role="button" onclick="myFunction()" ></div>
         </nav>
       </div>
         <div class="header-menu_popup" id="menu">
           <div class="header-menu_popup_dialog">
             <div class="header-menu_head">
-              <img src="img/logo.png" alt="Safe studio логотип">
-              <div class="exit_btn" role="button" easy-remove="#menu" easy-class="show"></div>
+              <img src="../img/logo.png" alt="Safe studio логотип">
+              <div class="exit_btn" role="button" onclick="myFunction()"></div>
             </div>
             <ul class="menu-mobile_list">
-              <li class="menu-mobile_item"><a href="#benefins">Преимущества</a></li>
-              <li class="menu-mobile_item"><a href="#vacansies">Вакансии</a></li>
-              <li class="menu-mobile_item"><a href="#our-place">О студии</a></li>
-              <li class="menu-mobile_item"><a href="#gallery">Галерея</a></li>
+              <li class="menu-mobile_item"><a href="#benefins" onclick="myFunction()">Преимущества</a></li>
+              <li class="menu-mobile_item"><a href="#vacansies" onclick="myFunction()">Вакансии</a></li>
+              <li class="menu-mobile_item"><a href="#our-place" onclick="myFunction()">О студии</a></li>
+              <li class="menu-mobile_item"><a href="#gallery" onclick="myFunction()">Галерея</a></li>
             </ul>
-            <a href="#contactUs-form" class="back_call" role="button">Заполнить анкету</a>
+            <a href="#contactUs-form" class="back_call" onclick="myFunction()">Заполнить анкету</a>
             <div class="social-media">
               <a href="#" class="instagram"></a>
               <a href="#" class="whatsapp"></a>
@@ -53,7 +53,7 @@
         </div>
         <div class="menu-icon_popup"></div>
       <div class="header_desktop">
-        <div class="logo"><img src="img/logo.png" alt=""></div>
+        <div class="logo"><img src="../img/logo.png" alt=""></div>
         <nav class="menu_desktop">
           <ul class="menu_list">
             <li class="menu_item"><a href="#benefins">Преимущества</a></li>
@@ -89,30 +89,30 @@
         с SafeStudio</h2>
     <div class="benefits_list">
       <div class="benefits_item">
-        <img src="img/taxi.svg" alt="">
+        <img src="../img/taxi.svg" alt="">
         <p>Каждому сотруднику предоставляется корпоративное такси
             от м. Речной вокзал</p>
       </div>
       <div class="benefits_item">
-        <img src="img/scheduale.svg" alt="">
+        <img src="../img/scheduale.svg" alt="">
         <p>Гибкий график суток, возможность работать как утром, так и вечером</p>
       </div>
       <div class="benefits_item">
-        <img src="img/save.svg" alt="">
+        <img src="../img/save.svg" alt="">
         <p>Мы гарантируем безопасность и конфиденциальность</p>
       </div>
       <div class="benefits_item">
-        <img src="img/photoshoot.svg" alt="">
+        <img src="../img/photoshoot.svg" alt="">
         <p>Фотосессии с профессиональным фотографом каждые
             3 месяца</p>
       </div>
       <div class="benefits_item">
-        <img src="img/payment.svg" alt="">
+        <img src="../img/payment.svg" alt="">
         <p>Выплаты производятся каждые две недели
             без задержек</p>
       </div>
       <div class="benefits_item">
-        <img src="img/penalty.svg" alt="">
+        <img src="../img/penalty.svg" alt="">
         <p>У нас нет штрафов</p>
       </div>
     </div>
@@ -161,7 +161,7 @@
             </div>
             <a href="#contactUs-form" class="back_call" role="button">Заполнить анкету</a>
           </div>
-          <img src="img/girl2desktop.avif" alt="">
+          <img src="../img/girl2desktop.avif" alt="">
         </div>
         <div id="ticher" class="description ticher">
           <div class="description__inner">
@@ -195,7 +195,7 @@
             </div>
             <a href="#contactUs-form" class="back_call" role="button">Заполнить анкету</a>
           </div>
-          <img src="img/girl2.avif" alt="">
+          <img src="../img/girl2.avif" alt="">
         </div>
         <div id="hr" class="description hr">
           <div class="description__inner">
@@ -221,7 +221,7 @@
             </div>
             <a href="#contactUs-form" class="back_call" role="button">Заполнить анкету</a>
           </div>
-          <img src="img/girl2.avif" alt="">
+          <img src="../img/girl2.avif" alt="">
         </div>
       </div>
     </div>
@@ -268,8 +268,7 @@
   </sectoin>
   <section id="our-place" class="place">
     <div class="container">
-      <div class="place__inner" data-aos="fade-down-right"
-      data-aos-duration="1500">
+      <div class="place__inner">
         <h2>Наша студия
         в Новосибирске</h2>
         <p>Мы являемся новой командой с амбициозными целями и планами.</p>
@@ -345,18 +344,18 @@
   <section id="gallery" class="slider">
     <div class="container">
       <h2>Галерея студии</h2>
-      <div class="swiper mySwiper">
+      <div class="swiper mySwiper" >
         <div class="swiper-wrapper">
-          <div class="swiper-slide"><img src="img/photo1.png" alt=""></div>
-          <div class="swiper-slide"><img src="img/photo2.png" alt=""></div>
-          <div class="swiper-slide"><img src="img/photo3.png" alt=""></div>
-          <div class="swiper-slide"><img src="img/photo4.png" alt=""></div>
-          <div class="swiper-slide"><img src="img/photo5.png" alt=""></div>
-          <div class="swiper-slide"><img src="img/photo6.png" alt=""></div>
-          <div class="swiper-slide"><img src="img/photo7.png" alt=""></div>
-          <div class="swiper-slide"><img src="img/photo8.png" alt=""></div>
-          <div class="swiper-slide"><img src="img/photo9.png" alt=""></div>
-          <div class="swiper-slide"><img src="img/photo10.png" alt=""></div>
+          <div class="swiper-slide"><img src="../img/photo1.png" alt=""></div>
+          <div class="swiper-slide"><img src="../img/photo2.png" alt=""></div>
+          <div class="swiper-slide"><img src="../img/photo3.png" alt=""></div>
+          <div class="swiper-slide"><img src="../img/photo4.png" alt=""></div>
+          <div class="swiper-slide"><img src="../img/photo5.png" alt=""></div>
+          <div class="swiper-slide"><img src="../img/photo6.png" alt=""></div>
+          <div class="swiper-slide"><img src="../img/photo7.png" alt=""></div>
+          <div class="swiper-slide"><img src="../img/photo8.png" alt=""></div>
+          <div class="swiper-slide"><img src="../img/photo9.png" alt=""></div>
+          <div class="swiper-slide"><img src="../img/photo10.png" alt=""></div>
         </div>
         <div class="swiper-pagination"></div>
       </div>
@@ -370,7 +369,7 @@
 
     <div class="footer-inner_mobile">
 
-      <img src="img/logo.png" alt="Safe studio логотип">
+      <img src="../img/logo.png" alt="Safe studio логотип">
 
       <a href="tel:+79137632531" class="phone_nomber">+7 913 763 25 31</a>
 
@@ -452,7 +451,7 @@
 
         <div class="footer-logo">
 
-          <img src="img/logo.png" alt="Safe studio логотип">
+          <img src="../img/logo.png" alt="Safe studio логотип">
 
         </div>
 
